@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useReview from '../../Hook/useReview/useReview';
 import Products from '../Products/Products';
 import Review from '../Review/Review';
 
 const HomePage = () => {
 
-const [review, setReview]=useReview()
+const [review]=useReview()
 
 
     return (
@@ -22,6 +23,10 @@ const [review, setReview]=useReview()
                                 key={reviewData.id}
                                 />)
                         }
+                        <div className='text-center w-100'>
+                        <Link to='/reviews' ><button className='my-btn'>See all reviews</button></Link>
+
+                        </div>
                     </div>
                 </div>
             </div>

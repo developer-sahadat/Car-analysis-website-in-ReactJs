@@ -27,8 +27,8 @@ const Review = ({reviewData}) => {
 
 
     return (
-    <div>
-        <div className='our-customer-review  p-4 text-center text-white mt-md-5 mt-lg-0 mt-sm-5 mt-5'>
+    <div className='mt-5 p-4'>
+        <div className='our-customer-review   p-4 text-center text-white mt-md-5 mt-lg-0 mt-sm-5 mt-5'>
            <img src={img}  alt="" />
            <h3 className='pt-2'>{name}</h3>
            <h6>{rating4 ? rating4:rating5 }</h6>
