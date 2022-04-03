@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.products{
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    font-size: 2.2rem;
+    color: rgb(12, 12, 12, 0.8);
+    font-weight: 600;
+}
+.products p{
+    padding-top: 1rem;
+    font-size: 16px;
+    color: rgb(12, 12, 12, 0.7);
+    line-height: 28px;
+}
+.products button{
+    border: 2px solid #2484f9;
+    background-color: white;
+    padding: 10px 45px;
+    font-size: 18px;
+    margin-top: 1rem;
+    color: #0073ff;
+    transition: all 0.5s;
+}
+.products button:hover{
+    background-color: #0073ff;
+    color: white;
+    border-radius: 10px;
+}
