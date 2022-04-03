@@ -14,7 +14,7 @@ const Products = () => {
                     <div>
                         <h2>BMW 3 Series</h2>
                         <p>Prices for the BMW 3 Series start at $ 43.6 million and go up to $ 62.9 million See the on-road pricing of the entire BMW 3 Series variant. Find out more about the new BMW 3 Series models, videos, latest news, and more about the four-wheeled ex-showroom price of the up-to-date 3 Series.....</p>
-                        <button>Buy Now</button>
+                        <button className='my-btn'>Buy Now</button>
                     </div>
                 
                 </div> 

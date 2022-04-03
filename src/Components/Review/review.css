@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.our-customer-review {
+    background: #333333;
+    border: .80rem solid white;
+    border-radius: 10px;
+    box-shadow: 7px 10px 5px rgb(231, 231, 231), -3px -7px 10px rgb(230, 230, 230);
+    font-family: 'Poppins', sans-serif;
+    min-height:290px;
+}
+
+.our-customer-review img {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    border: .80rem solid #fff;
+    margin-top: -8rem;
+    object-fit: cover;
+}
+.start{
+    width: 20px;
+    color: #1EA2FD;
+}

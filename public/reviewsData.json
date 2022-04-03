@@ -7,17 +7,31 @@
         "id":1
     },
     {
+        "img":"https://images.unsplash.com/photo-1627900352514-7f8bbb3f5edb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTM2fHx1c2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "name":"Thomas",
+        "description":"Love my BMW 3 Series , I used to buy more expensive cars but when I saw the BMW 3 Series was love at first sight , to me , small outside but normal car inside , all modern tech , park sensors , the whole package, and the experience has been very good so far , runs great , fun to drive , some rattles here and there but other than that great , fully recommend. Be aware dealers are...",
+        "rating":5,
+        "id":4
+    },
+    {
+        "img":"https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODN8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "name":"John Deo",
+        "description":"I really like this product. I got a lot of fun doing it. And I like that car a lot. Adhan to go out with the family. We love our BMW 3 Series. It’s meet our needs and we can’t be more satisfy with the gas mileage...",
+        "rating":5,
+        "id":3
+    },
+    {
         "img":"https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
         "name":"Michael",
         "description":"2022 BMW 3 Series model but much more space than my older model. Driving stability is significantly better and even better gas mileage is 36-41 mpg. I actually went to see a used 2020 BMW 3 Series with 53k miles to another dealer they wanted $ 16500 which is crazy to me...",
-        "rating":4.5,
+        "rating":4,
         "id":2
     },
     {
         "img":"https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODN8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
         "name":"John Deo",
         "description":"I really like this product. I got a lot of fun doing it. And I like that car a lot. Adhan to go out with the family. We love our BMW 3 Series. It’s meet our needs and we can’t be more satisfy with the gas mileage...",
-        "rating":4,
+        "rating":5,
         "id":3
     },
     {
