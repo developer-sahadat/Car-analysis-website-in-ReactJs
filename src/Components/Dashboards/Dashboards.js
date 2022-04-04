@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import { Area, AreaChart, CartesianGrid, Pie, PieChart, Tooltip, XAxis, YAxis } from 'recharts';
+import { Area, AreaChart, CartesianGrid,  Tooltip, XAxis, YAxis } from 'recharts';
 
 const Dashboards = () => {
     const [dataAnalysis, setDataAnalysis]=useState([])
@@ -37,13 +37,26 @@ console.log(dataAnalysis);
             </div>
             <div>
                 <h3 className='mt-5'>Month wise sell</h3>
-                <PieChart width={1100} height={250}>
-                <Pie data={dataAnalysis} dataKey="sell" nameKey="month" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
-                <Pie data={dataAnalysis} dataKey="sell" nameKey="month" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
-                <Tooltip/>
-                </PieChart>
+                <AreaChart
+                width={1000}
+                height={200}
+                data={dataAnalysis}
+                syncId="anyId"
+                margin={{
+                top: 10,
+                right: 30,
+                left: 0,
+                bottom: 0,
+                }}
+            >
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="month" />
+                <YAxis />
+                <Tooltip />
+                <Area type="monotone" dataKey="sell" stroke="#82ca9d" fill="#82ca9d" />
+                </AreaChart>
             </div>
-            
+ 
         </div>
     );
 };
